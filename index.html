@@ -1,124 +1,112 @@
-<html><!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startup Investor Connection</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'navy': '#0B1622',
-                        'accent-blue': '#2A9FD6'
-                    },
-                    fontFamily: {
-                        'cursive': ['Dancing Script', 'cursive'],
-                        'sans': ['Poppins', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .circuit-pattern {
-            background-image: radial-gradient(circle at 50% 50%, rgba(42, 159, 214, 0.1) 0%, transparent 50%),
-                            linear-gradient(45deg, rgba(42, 159, 214, 0.05) 25%, transparent 25%),
-                            linear-gradient(-45deg, rgba(42, 159, 214, 0.05) 25%, transparent 25%);
-            background-size: 100% 100%, 20px 20px, 20px 20px;
-            animation: pulse 4s ease-in-out infinite;
-        }
-        .hexagon {
-            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-            transition: all 0.3s ease;
-        }
-        .hexagon:hover {
-            transform: scale(1.1);
-            background-color: rgba(42, 159, 214, 0.4);
-        }
-        @keyframes pulse {
-            0% { background-size: 100% 100%, 20px 20px, 20px 20px; }
-            50% { background-size: 120% 120%, 22px 22px, 22px 22px; }
-            100% { background-size: 100% 100%, 20px 20px, 20px 20px; }
-        }
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
-        }
-        .float-animation {
-            animation: float 3s ease-in-out infinite;
-        }
-    </style>
+    <title>INVESTOS</title>
+    <link rel="stylesheet" href="vv.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-navy min-h-screen font-sans text-white circuit-pattern">
-    <!-- Navigation -->
-    <nav class="bg-navy/90 backdrop-blur-sm fixed w-full z-50">
-        <div class="container mx-auto px-4">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center space-x-8">
-                    <button class="lg:hidden text-white">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
-                    <a href="#" class="text-accent-blue hover:text-white transition">How it works</a>
-                    <a href="#" class="text-white hover:text-accent-blue transition">Home</a>
+<body>
+    <div id="nav">
+        <h3><b>INVESTOS</b></h3>
+        <nav>
+            <ul>
+                <li><a href="#main">HOME</a></li>
+                <li><a href="#page1">ABOUT</a></li>
+                <li><a href="#page2">SERVICES</a></li>
+                <li><a href="#page4">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <button>COMMUNITY</button>
+    </div>
+    <div id="main">
+        <div id="page">
+            <div id="loop">
+                <h1><b>CHOOSE</b>RIGHT <b><i>CONNECTION</i></b> <span>FOR</span> YOUR <span><i>STARTUP.</i><b></b></span></h1>
+                <h1><b>CHOOSE</b>RIGHT <b><i>CONNECTION</i></b> <span>FOR</span> YOUR <span><i>STARTUP.</i><b></b></span></h1>
+                <h1><b>CHOOSE</b>RIGHT <b><i>CONNECTION</i></b> <span>FOR</span> YOUR <span><i>STARTUP.</i><b></b></span></h1>
+
+                
+            </div>
+            <h3>"Forge meaningful relationships with investors; your startup's success hinges on trust, vision, and the ability to communicate your passion effectively."
+            <h4>...SCROLL TO READ</h4>
+            <canvas></canvas>
+        </div>
+        <div id="page1">
+            <div id="right-text">
+                <h1>START UP </h1>
+                <h2>"We offer a streamlined connection to investors,<br> ensuring credibility through verification. <br>Trust us to facilitate meaningful collaborations<br> that drive growth and innovation."</h2>
+            </div>
+            <div id="left-text">
+                <h1>INVESTORS</h1>
+                    <h2>"Partnering with verified startups<br> reduces uncertainty. <br>We trust these entrepreneurs to deliver authentic proposals,<br> creating a foundation for successful investments and <br>shared achievements."</h2>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-card">
+                <img src="Screenshot 2025-04-07 102607.png" alt="investor">
+                <div class="image-caption">
+                    <p></p>
+                    <a href="#investors">INVESTORS</a>
                 </div>
-                <div class="hidden lg:flex items-center space-x-8">
-                    <a href="#" class="text-white hover:text-accent-blue transition">SIGNUP</a>
-                    <a href="#" class="text-white hover:text-accent-blue transition">LOGIN</a>
-                    <a href="#" class="text-white hover:text-accent-blue transition">ABOUT US</a>
-                    <a href="#" class="text-white hover:text-accent-blue transition">HELP</a>
+            </div>
+            <div class="image-card">
+                <img src="Screenshot 2025-04-07 102607.png" alt="Startup">
+                <div class="image-caption">
+                    <p></p>
+                    <a href="#startups">STARTUP</a>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <main class="relative min-h-screen flex items-center justify-center px-4">
-        <!-- Decorative Hexagons Left -->
-        <div class="absolute left-0 top-1/4 opacity-20">
-            <div class="grid grid-cols-3 gap-2">
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
+        <div id="page2">
+            <div id="text1">
+                <h1>OUR SERVICES</h1>
+                <h2>Quality of Service:</h2><h3> Assess the consistency and reliability of the service delivered.</h3>
+                <h2>    Customer Feedback:</h2><h3> Gather reviews and testimonials from users to gauge satisfaction.</h3>
+                <h2>    Response Time:</h2><h3> Evaluate the speed and efficiency of service delivery.</h3>
+                <h2>    Cost-Effectiveness:<h2><h3> Analyze pricing relative to the value provided.</h3>
+                <h2>    Support Availability:<h2><h3> Check the accessibility and responsiveness of customer support.</h3>
+                <h2>    Performance Metrics:<h2> <h3>Use measurable indicators to track service effectiveness and outcomes.</h3>
+            </div>
+            <div id="text2">
             </div>
         </div>
+        <div id="page3">
+            <div id="text3">
+                <h2>To ensure a reliable process and progress for startups connecting with investors ,try for suggestions</h2>
+                <button>COMMUNITY</button>
 
-        <!-- Decorative Hexagons Right -->
-        <div class="absolute right-0 bottom-1/4 opacity-20">
-            <div class="grid grid-cols-3 gap-2">
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
-                <div class="hexagon bg-accent-blue w-16 h-16"></div>
+               
             </div>
         </div>
-
-        <!-- Main Content -->
-        <div class="text-center max-w-5xl mx-auto float-animation">
-            <h1 class="font-cursive text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight">
-                Connecting Startups with Investors—Innovation Starts Here!
-            </h1>
-            <p class="text-lg md:text-xl mb-12 text-gray-300 max-w-3xl mx-auto">
-                FIND THE RIGHT EXPERTS FOR YOUR STARTUP OR OFFER YOUR KNOWLEDGE TO EMERGING BUSINESSES.
-            </p>
-            <button class="bg-accent-blue hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg transition-all transform hover:scale-105 hover:shadow-lg relative overflow-hidden group">
-                <span class="absolute inset-0 bg-white/30 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-500"></span>
-                Explore Content!
-            </button>
+        <div id="page4">
+            <div class="contact-container">
+                <h1 class="contact-title">CONNECT WITH US</h1>
+                <div class="social-links">
+                    <a href="https://facebook.com" class="social-link" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="mailto:contact@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://instagram.com" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <!-- Circuit Board Animation -->
-        <div class="absolute inset-0 pointer-events-none">
-            <div class="w-full h-full" style="background: radial-gradient(circle at center, rgba(42, 159, 214, 0.1) 0%, transparent 70%)"></div>
-        </div>
-    </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="vvs.js"></script>
 </body>
 </html>
-</html>
+
